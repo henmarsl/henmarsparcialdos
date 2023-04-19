@@ -1,0 +1,50 @@
+body{
+    background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#descripcion{
+    resize: none;
+}
+.centrado{
+    display: flex;
+    align-items: center;
+}
+
+
+.social {
+    margin: 30px 45px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    margin: 0 30px;
+}
+
+.links a i {
+    font-size: 1.8rem;
+}
+
+.links a i:hover {
+    border-radius: 7px;
+    border: 4px solid black;
+    background: black;
+    color: black;
+    width: 100%;
+    cursor: pointer;
+}
+
+.social h3 {
+    margin: 10px 33px;
+    color: black;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
